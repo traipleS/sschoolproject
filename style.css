@@ -1,0 +1,153 @@
+body, * {
+    background: #161616;
+    margin: 0;
+    color: #ffffff;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    
+}
+
+@media only screen and (max-width: 480px) { 
+    img { 
+        width: 100%;
+    } 
+
+    .h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 25px;
+    }
+    
+    .h3 {
+        position: relative;
+        margin-top: 5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 10px;
+    }
+
+    .col-h1 {
+        font-size: 18px;
+    }
+    
+    .col-p {
+        font-size: 10px;
+    }
+
+    }
+@media only screen and (max-width: 768px) { 
+    img { 
+        width: 100%; 
+    } 
+
+    .h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .h3 {
+        position: absolute;
+        margin-top: 20px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) { 
+    img { 
+        width: 100%; 
+    } 
+    .h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .h3 {
+        position: absolute;
+        top: 63%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    }
+
+@media only screen and (max-width: 1920px) { 
+    img { 
+        width: 100%; 
+        
+    } 
+    .h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .h3 {
+        position: absolute;
+        top: 63%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+h3, p {
+    font-weight: lighter;
+}
+
+.back-img {
+    position: relative;
+    text-align: center;
+}
+
+
+
+.img {
+    filter: brightness(40%);
+}
+
+.header {
+    text-align: center;
+    
+}
+
+.main {
+    margin-top: 5%;
+}
+
+.col {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6 {
+    width: 30%;
+    height: auto;
+    padding-top: 50px;
+}
+
+.all {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.footer {
+    margin-top: 10%;
+}
+
+.p-footer {
+    margin-left: 30px;
+    font-size: small;
+    font-weight: 100;
+}
